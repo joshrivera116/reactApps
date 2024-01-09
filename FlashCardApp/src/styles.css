@@ -1,0 +1,92 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app{
+    display: flex;
+    align-items: center;
+}
+.todo-card{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 40rem;
+    height: auto;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+.footer button{
+    margin: 1rem 3rem;
+    border: none;
+    min-width: 1rem;
+    max-width: 4rem;
+    background-color: white;
+    
+}
+.number-of-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.secondHalf{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item{
+    text-decoration: none;
+    padding-right: 25rem;
+    border: 1px black;
+    width: 100%;
+    margin-bottom: 0.6rem;
+    margin-top: 0.6rem;
+}
+.list-item{
+    border: 1px black;
+    border-bottom: 1px solid gray;
+    width: 90%;
+    margin-right: 3rem;
+}
+.complete{
+    text-decoration: line-through;
+}
+ul{
+    list-style-type: none;
+}
+
+.add-new{
+    width: 80%;
+}
+.unordered-list{
+    width: 100%;
+}
+.add-bar{
+    width: 80%;
+    border: none;
+    &:hover{
+        box-shadow: 0 0 5px 0 rgb(89, 89, 255);
+    }
+}
+.submit{
+    border: none;
+    background-color: transparent;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    &:hover{
+        border-radius: 20px;
+        border: 1px gray solid;
+    }
+}
